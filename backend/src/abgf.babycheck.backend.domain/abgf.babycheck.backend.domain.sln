@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{90880FF4-7386-4AEF-BE35-AD4681425DF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{8E00DC5A-DF15-4E30-8993-B0F52AD27468}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abgf.babycheck.backend.domain.contracts", "abgf.babycheck.backend.domain.contracts\abgf.babycheck.backend.domain.contracts.csproj", "{EDEEA976-0BA5-41A5-AE0D-74E6A4325647}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abgf.babycheck.backend.domain.entities", "abgf.babycheck.backend.domain.entities\abgf.babycheck.backend.domain.entities.csproj", "{4733A104-6344-43C5-AA4C-1A8E06D30224}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abgf.babycheck.backend.domain.real", "abgf.babycheck.backend.domain.real\abgf.babycheck.backend.domain.real.csproj", "{E5E9C0A8-317C-4BDB-8EA0-F7AD75E73E43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abgf.babycheck.backend.domain.tools.databaseinit", "abgf.babycheck.backend.domain.tools.databaseinit\abgf.babycheck.backend.domain.tools.databaseinit.csproj", "{66E1A5B9-A699-4A1F-8B1B-50FFD4E6079B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDEEA976-0BA5-41A5-AE0D-74E6A4325647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDEEA976-0BA5-41A5-AE0D-74E6A4325647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDEEA976-0BA5-41A5-AE0D-74E6A4325647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDEEA976-0BA5-41A5-AE0D-74E6A4325647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4733A104-6344-43C5-AA4C-1A8E06D30224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4733A104-6344-43C5-AA4C-1A8E06D30224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4733A104-6344-43C5-AA4C-1A8E06D30224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4733A104-6344-43C5-AA4C-1A8E06D30224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5E9C0A8-317C-4BDB-8EA0-F7AD75E73E43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5E9C0A8-317C-4BDB-8EA0-F7AD75E73E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5E9C0A8-317C-4BDB-8EA0-F7AD75E73E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5E9C0A8-317C-4BDB-8EA0-F7AD75E73E43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66E1A5B9-A699-4A1F-8B1B-50FFD4E6079B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66E1A5B9-A699-4A1F-8B1B-50FFD4E6079B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66E1A5B9-A699-4A1F-8B1B-50FFD4E6079B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66E1A5B9-A699-4A1F-8B1B-50FFD4E6079B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EDEEA976-0BA5-41A5-AE0D-74E6A4325647} = {90880FF4-7386-4AEF-BE35-AD4681425DF1}
+		{4733A104-6344-43C5-AA4C-1A8E06D30224} = {90880FF4-7386-4AEF-BE35-AD4681425DF1}
+		{E5E9C0A8-317C-4BDB-8EA0-F7AD75E73E43} = {90880FF4-7386-4AEF-BE35-AD4681425DF1}
+		{66E1A5B9-A699-4A1F-8B1B-50FFD4E6079B} = {8E00DC5A-DF15-4E30-8993-B0F52AD27468}
+	EndGlobalSection
+EndGlobal
