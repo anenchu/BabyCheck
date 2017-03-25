@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abgf.babycheck.frontend.wpf", "abgf.babycheck.frontend.wpf\abgf.babycheck.frontend.wpf.csproj", "{49333CDB-57BA-4CFC-AD4E-9CF52794955E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{1EDD6601-CC25-4949-84BC-D55DA38E1BFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{A1A366A8-77A2-4C4B-89D3-DCEC81845D36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewModel", "ViewModel", "{92A7AA5C-66BC-4CD1-8C1E-8DA034C0A70C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abgf.babycheck.frontend.model", "..\abgf.babycheck.frontend.model\abgf.babycheck.frontend.model\abgf.babycheck.frontend.model.csproj", "{3AE1AE57-EB42-4FDE-883E-946D9C962101}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abgf.babycheck.frontend.contracts", "..\abgf.babycheck.frontend.contracts\abgf.babycheck.frontend.contracts\abgf.babycheck.frontend.contracts.csproj", "{89E907B5-DFBD-4758-BBFA-8A7152E7E9EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abgf.babycheck.frontend.mocks", "..\abgf.babycheck.frontend.mocks\abgf.babycheck.frontend.mocks\abgf.babycheck.frontend.mocks.csproj", "{251CC36E-EDEE-4591-9E4B-E6C1D6B5FB21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abgf.babycheck.frontend.real", "..\abgf.babycheck.frontend.real\abgf.babycheck.frontend.real\abgf.babycheck.frontend.real.csproj", "{DDDD3850-3E0C-4AD8-9944-52EE4CB81682}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abgf.babycheck.frontend.viewmodel", "..\abgf.babycheck.frontend.viewmodel\abgf.babycheck.frontend.viewmodel\abgf.babycheck.frontend.viewmodel.csproj", "{FCAC926D-4828-4ED7-95C3-B7CBA9828883}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IoC", "IoC", "{AC454ABE-FFFB-4567-9B99-5FBAD4641271}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abgf.babycheck.frontend.IoC", "..\abgf.babycheck.frontend.IoC\abgf.babycheck.frontend.IoC\abgf.babycheck.frontend.IoC.csproj", "{61CB7FB3-1683-48D4-B3F2-BDC63488DD0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49333CDB-57BA-4CFC-AD4E-9CF52794955E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49333CDB-57BA-4CFC-AD4E-9CF52794955E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49333CDB-57BA-4CFC-AD4E-9CF52794955E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49333CDB-57BA-4CFC-AD4E-9CF52794955E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AE1AE57-EB42-4FDE-883E-946D9C962101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AE1AE57-EB42-4FDE-883E-946D9C962101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AE1AE57-EB42-4FDE-883E-946D9C962101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AE1AE57-EB42-4FDE-883E-946D9C962101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89E907B5-DFBD-4758-BBFA-8A7152E7E9EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89E907B5-DFBD-4758-BBFA-8A7152E7E9EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89E907B5-DFBD-4758-BBFA-8A7152E7E9EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89E907B5-DFBD-4758-BBFA-8A7152E7E9EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{251CC36E-EDEE-4591-9E4B-E6C1D6B5FB21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{251CC36E-EDEE-4591-9E4B-E6C1D6B5FB21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{251CC36E-EDEE-4591-9E4B-E6C1D6B5FB21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{251CC36E-EDEE-4591-9E4B-E6C1D6B5FB21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDDD3850-3E0C-4AD8-9944-52EE4CB81682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDDD3850-3E0C-4AD8-9944-52EE4CB81682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDDD3850-3E0C-4AD8-9944-52EE4CB81682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDDD3850-3E0C-4AD8-9944-52EE4CB81682}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCAC926D-4828-4ED7-95C3-B7CBA9828883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCAC926D-4828-4ED7-95C3-B7CBA9828883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCAC926D-4828-4ED7-95C3-B7CBA9828883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCAC926D-4828-4ED7-95C3-B7CBA9828883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61CB7FB3-1683-48D4-B3F2-BDC63488DD0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61CB7FB3-1683-48D4-B3F2-BDC63488DD0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61CB7FB3-1683-48D4-B3F2-BDC63488DD0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61CB7FB3-1683-48D4-B3F2-BDC63488DD0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3AE1AE57-EB42-4FDE-883E-946D9C962101} = {1EDD6601-CC25-4949-84BC-D55DA38E1BFC}
+		{89E907B5-DFBD-4758-BBFA-8A7152E7E9EF} = {A1A366A8-77A2-4C4B-89D3-DCEC81845D36}
+		{251CC36E-EDEE-4591-9E4B-E6C1D6B5FB21} = {A1A366A8-77A2-4C4B-89D3-DCEC81845D36}
+		{DDDD3850-3E0C-4AD8-9944-52EE4CB81682} = {A1A366A8-77A2-4C4B-89D3-DCEC81845D36}
+		{FCAC926D-4828-4ED7-95C3-B7CBA9828883} = {92A7AA5C-66BC-4CD1-8C1E-8DA034C0A70C}
+		{61CB7FB3-1683-48D4-B3F2-BDC63488DD0D} = {AC454ABE-FFFB-4567-9B99-5FBAD4641271}
+	EndGlobalSection
+EndGlobal
